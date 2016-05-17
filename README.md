@@ -1,0 +1,1 @@
+# android_vendor_samsung_P731A20
