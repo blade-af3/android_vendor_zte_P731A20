@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/bin/nvitemd:system/bin/nvitemd \
     vendor/zte/P731A20/proprietary/bin/phoneserver:system/bin/phoneserver \
     vendor/zte/P731A20/proprietary/bin/refnotify:system/bin/refnotify \
+	vendor/zte/P731A20/proprietary/bin/rild:system/bin/rild \
 	vendor/zte/P731A20/proprietary/bin/rild_sp:system/bin/rild_sp \
 	vendor/zte/P731A20/proprietary/bin/rilproxyd:system/bin/rilproxyd \
     vendor/zte/P731A20/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
@@ -29,11 +30,19 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/zte/P731A20/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/zte/P731A20/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    vendor/zte/P731A20/proprietary/lib/hw/audio.primary.sc8830.so:system/lib/hw/audio.primary.sc8830.so \
+    vendor/zte/P731A20/proprietary/lib/hw/audio_policy.sc8830.so:system/lib/hw/audio_policy.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/hw/camera2.sc8830.so:system/lib/hw/camera2.sc8830.so \
+    vendor/zte/P731A20/proprietary/lib/hw/fm.sc8830.so:system/lib/hw/fm.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/zte/P731A20/proprietary/lib/hw/gralloc.sc8830.so:system/lib/hw/gralloc.sc8830.so \
+    vendor/zte/P731A20/proprietary/lib/hw/hwcomposer.sc8830.so:system/lib/hw/hwcomposer.sc8830.so \
+    vendor/zte/P731A20/proprietary/lib/hw/lights.sc8830.so:system/lib/hw/lights.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
+    vendor/zte/P731A20/proprietary/lib/hw/sprd_gsp.sc8830.so:system/lib/hw/sprd_gsp.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/libboost.so:system/lib/libboost.so \
+    vendor/zte/P731A20/proprietary/lib/libdumpdata.so:system/lib/libdumpdata.so \
     vendor/zte/P731A20/proprietary/lib/libisp.so:system/lib/libisp.so \
     vendor/zte/P731A20/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/zte/P731A20/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
@@ -44,6 +53,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/lib/librilproxy.so:system/lib/librilproxy.so \
     vendor/zte/P731A20/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/zte/P731A20/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
+    vendor/zte/P731A20/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
+    vendor/zte/P731A20/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
+    vendor/zte/P731A20/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
     vendor/zte/P731A20/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/zte/P731A20/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/zte/P731A20/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
