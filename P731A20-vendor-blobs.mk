@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/bin/phoneserver:system/bin/phoneserver \
     vendor/zte/P731A20/proprietary/bin/refnotify:system/bin/refnotify \
 	vendor/zte/P731A20/proprietary/bin/rild:system/bin/rild \
-	vendor/zte/P731A20/proprietary/bin/rild_sp:system/bin/rild_sp \
 	vendor/zte/P731A20/proprietary/bin/rilproxyd:system/bin/rilproxyd \
     vendor/zte/P731A20/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/zte/P731A20/proprietary/lib/drm/libdrmomaplugin.so:system/lib/drm/libdrmomaplugin.so \
@@ -41,21 +40,31 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/lib/hw/lights.sc8830.so:system/lib/hw/lights.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
     vendor/zte/P731A20/proprietary/lib/hw/sprd_gsp.sc8830.so:system/lib/hw/sprd_gsp.sc8830.so \
+    vendor/zte/P731A20/proprietary/lib/modules/mali.ko:system/lib/modules/mali.ko \
+    vendor/zte/P731A20/proprietary/lib/libatchannel.so:system/lib/libatchannel.so \
+    vendor/zte/P731A20/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/zte/P731A20/proprietary/lib/libboost.so:system/lib/libboost.so \
+    vendor/zte/P731A20/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
+    vendor/zte/P731A20/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/zte/P731A20/proprietary/lib/libdumpdata.so:system/lib/libdumpdata.so \
+    vendor/zte/P731A20/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/zte/P731A20/proprietary/lib/libisp.so:system/lib/libisp.so \
+    vendor/zte/P731A20/proprietary/lib/libiwnpi.so:system/lib/libiwnpi.so \
     vendor/zte/P731A20/proprietary/lib/libMali.so:system/lib/libMali.so \
+    vendor/zte/P731A20/proprietary/lib/libnvexchange.so:system/lib/libnvexchange.so \
     vendor/zte/P731A20/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/zte/P731A20/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/zte/P731A20/proprietary/lib/libreference-ril_sp.so:system/lib/libreference-ril_sp.so \
     vendor/zte/P731A20/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/zte/P731A20/proprietary/lib/libril_sp.so:system/lib/libril_sp.so \
     vendor/zte/P731A20/proprietary/lib/librilproxy.so:system/lib/librilproxy.so \
     vendor/zte/P731A20/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/zte/P731A20/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
+    vendor/zte/P731A20/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/zte/P731A20/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/zte/P731A20/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
     vendor/zte/P731A20/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/zte/P731A20/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
+    vendor/zte/P731A20/proprietary/lib/libvtmanager.so:system/lib/libvtmanager.so \
     vendor/zte/P731A20/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/zte/P731A20/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/zte/P731A20/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
