@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/bin/phoneserver:system/bin/phoneserver \
     vendor/zte/P731A20/proprietary/bin/refnotify:system/bin/refnotify \
 	vendor/zte/P731A20/proprietary/bin/rild:system/bin/rild \
-	vendor/zte/P731A20/proprietary/bin/rild_sp:system/bin/rild_sp \
 	vendor/zte/P731A20/proprietary/bin/rilproxyd:system/bin/rilproxyd \
     vendor/zte/P731A20/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/zte/P731A20/proprietary/lib/drm/libdrmomaplugin.so:system/lib/drm/libdrmomaplugin.so \
@@ -57,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/zte/P731A20/proprietary/lib/libreference-ril_sp.so:system/lib/libreference-ril_sp.so \
     vendor/zte/P731A20/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/zte/P731A20/proprietary/lib/libril_sp.so:system/lib/libril_sp.so \
     vendor/zte/P731A20/proprietary/lib/librilproxy.so:system/lib/librilproxy.so \
     vendor/zte/P731A20/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/zte/P731A20/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
