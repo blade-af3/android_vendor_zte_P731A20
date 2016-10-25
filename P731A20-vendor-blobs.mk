@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
     vendor/zte/P731A20/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/zte/P731A20/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/zte/P731A20/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/zte/P731A20/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
     vendor/zte/P731A20/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/zte/P731A20/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
