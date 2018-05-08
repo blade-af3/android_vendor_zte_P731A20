@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/P731A20/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
     vendor/zte/P731A20/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/zte/P731A20/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
+    vendor/zte/P731A20/proprietary/lib/libvedroidfw.so:system/lib/libvedroidfw.so \
     vendor/zte/P731A20/proprietary/lib/libvtmanager.so:system/lib/libvtmanager.so \
     vendor/zte/P731A20/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/zte/P731A20/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
